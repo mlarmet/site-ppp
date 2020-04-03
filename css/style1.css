@@ -1,0 +1,180 @@
+@font-face{
+    font-family: 'bebas neue';
+      src: url('../fonts/BebasNeue-Regular.ttf');
+    }
+@font-face{
+    font-family: 'Michroma';
+      src: url('../fonts/Michroma-Regular.ttf');
+    }
+ @font-face{
+    font-family: 'josefin sans';
+      src: url('../fonts/JosefinSans-Light.ttf');
+    }
+
+@font-face{
+    font-family: 'comfortaa';
+    src: url('../fonts/Comfortaa-Regular.ttf');
+}
+
+nav {
+    font-family: 'josefin sans', sans-serif;
+    font-variant: small-caps;
+    position: sticky!important;
+    top: 0;
+    
+}
+
+main > nav {
+    background-color: #aba9ab;
+    margin-bottom: 1em;
+    font-weight: bold;
+
+}
+
+main > .navbar  {
+    padding: 0 1em;
+}
+
+
+
+main > nav a, body > nav a:hover {
+    color: white;
+}
+
+main > li:hover {
+    background-color: blue;
+}
+
+.select {
+    background-color: #4797e6;
+}
+
+
+section {
+    width: 60%;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+header {
+    margin: 2em 0;
+    width: 96%;
+}
+
+footer a, footer a:hover, header a, header a:hover{
+    color: black;
+    text-decoration: underline;
+    border-left: 1px solid;
+    border-color: black;
+}
+
+h1 a{
+    font-family: 'Michroma';
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #2994ff;
+    text-decoration: none;
+    border: none;
+}
+
+h1 a:hover{
+    font-family: 'Michroma';
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #2994ff;
+    border: none;text-decoration: none;
+}
+
+
+main h2{
+    font-family: 'bebas neue';    
+    font-variant: small-caps;
+    color: #0057ad;
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 1.5px -1.5px 2px #2994ff
+
+}
+
+h3 {
+    font-family: 'bebas neue';
+    padding: 1em;
+    padding-bottom: 0.5em;
+    color: #0057ad;
+}
+
+p {
+    font-family: 'comfortaa';
+    text-align: justify;
+    letter-spacing: 0.9px;
+    line-height: 22px;
+    text-indent:3em;
+    margin: 0;
+}
+
+a:active{
+    text-decoration: none;
+    color: #4797e6;
+}
+a:hover{
+    text-decoration: none;
+    color: #0057ad;
+}
+
+li{
+    font-family: 'comfortaa';
+    text-align: justify;
+    letter-spacing: 0.9px;
+    line-height: 22px;
+}
+
+img {
+    
+    display: block;
+    margin: 2em auto;
+    
+    width: 63%;
+}
+
+footer {
+    background-color: #aba9ab;
+}
+
+footer nav{
+    font-size: 85%;
+    margin: 0em;
+}
+
+.dropdown {
+    position: sticky!important;
+    top: 0;
+}
+
+.btn-group{
+    margin: 0;
+}
+
+hr{
+    background-color: black;
+}
+
+@media screen and (max-width: 640px)
+        {
+            header h1{font-size: 1em;
+            margin:0;}
+            main h1{
+                font-size: 2.5em;
+            }
+            
+            nav{
+                margin-left: 0.5em;
+            }
+            header{
+                margin-bottom: 0;
+            }
+            nav a{
+                border: 0;
+                text-decoration: none;
+                font-size: 70%;
+            }
+}
